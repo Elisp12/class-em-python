@@ -3,10 +3,10 @@ from palura.test import Restaurante
 
 restaurante1 = Restaurante('praça', 'Goumert')
 
-restaurante1.recebe_avaliacao('elispo', 6)
-restaurante1.recebe_avaliacao('elis', 1)
-restaurante1.recebe_avaliacao('elispo', 8)
-restaurante1.recebe_avaliacao('elispo', 7)
+restaurante1.recebe_avaliacao('elispo', 5)
+restaurante1.recebe_avaliacao('elis', 5)
+restaurante1.recebe_avaliacao('elispo', 2)
+restaurante1.recebe_avaliacao('elispo', 3)
 
 restaurante1.alternar_estado()
 
